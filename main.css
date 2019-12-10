@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: bisque;
     font-size: 18px;
@@ -5,9 +10,22 @@ body {
 
 h1 {
     color: brown;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
 }
 
 p {
-    color: blueviolet;
-    
+    color: brown;
+    text-align: left;
+}
+
+section {
+    width: 35em;
+    margin: 50px auto;
+    border: orange dotted 5px;
+    padding: 20px;
 }
